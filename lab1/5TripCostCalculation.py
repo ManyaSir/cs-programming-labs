@@ -1,0 +1,7 @@
+distance = int(input())
+fuel_waste = float(input())
+fuel_cost = int(input())
+fuel = float(distance / 100 * fuel_waste)
+price = float(fuel * fuel_cost)
+print(f"Топливо: {fuel:.2f} л")
+print(f"Стоимость: {price:.2f} руб")
